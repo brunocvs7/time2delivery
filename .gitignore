@@ -463,3 +463,4 @@ __pycache__/
 OpenCover/
 junit/
 .DS_Store
+*.csv
