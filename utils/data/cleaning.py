@@ -119,6 +119,8 @@ def check_rare_levels(df:pd.DataFrame, columns:list=None) -> dict:
         columns_levels_frequency[i] = frequency
 
     return columns_levels_frequency
+
+
 if __name__ == '__main__':
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     logging.basicConfig(level=logging.INFO, format=log_fmt)
