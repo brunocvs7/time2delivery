@@ -14,3 +14,5 @@ yellowbrick
 optuna>=2.10
 seaborn
 matplotlib
+pyarrow
+haversine
