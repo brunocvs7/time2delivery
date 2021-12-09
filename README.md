@@ -59,7 +59,8 @@ Project Organization
 ------------
 
 To build the App You will need:
-``` git clone git@github.com:brunocvs7/time2delivery.git
+``` 
+    git clone git@github.com:brunocvs7/time2delivery.git
     cd time2delivery
     docker build -t time2delivery .
     docker run -p 5000:5000 -d time2delivery
