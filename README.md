@@ -58,7 +58,7 @@ Project Organization
             └── visualize.py
 ------------
 
-To build the App You will nedd:
+To build the App You will need:
 ``` git clone git@github.com:brunocvs7/time2delivery.git
     cd time2delivery
     docker build -t time2delivery .
