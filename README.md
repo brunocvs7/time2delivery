@@ -57,3 +57,11 @@ Project Organization
             ├── __init__.py
             └── visualize.py
 ------------
+
+To build the App You will nedd:
+``` git clone git@github.com:brunocvs7/time2delivery.git
+    cd time2delivery
+    docker build -t time2delivery .
+    docker run -p 5000:5000 -d time2delivery
+    python3 request_time2delivery.py "data/processed/submission" <filename to save predictions>
+```
