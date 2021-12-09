@@ -14,5 +14,5 @@ def get_intervals(model:Pipeline, X:pd.DataFrame, confidence:float=0.95):
     X_processed = model['preprocessor'].transform(X)
     y_dist = model['model'].pred_dist(X_processed).params
     predictions = pd.DataFrame(y_dist)
-    predictions['interval'] = predictions.apply(lambda x: st.lognorm.interval(alpha=0.95, s=x['s'], scale=x['scale']), axis=1)
+    predictions['interval'] = predictions.apply(lambda x: st.lognorm.interval(alpha=confidence, s=x['s'], scale=x['scale']), axis=1)
     return predictions
