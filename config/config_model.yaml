@@ -1,0 +1,4 @@
+---
+columns: ['on_demand', 'found_rate', 'sum_kgs', 'sum_unities', 'n_distinct_items', 'hour_group', 'distance_km']
+model_path: 'models/model.sav'
+feature_enginering_pipe_path: 'models/feature_engineering_pipe.sav'

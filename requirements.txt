@@ -14,3 +14,8 @@ yellowbrick
 optuna>=2.10
 seaborn
 matplotlib
+pyarrow
+haversine
+boruta
+flask>=2.0
+ngboost>=0.3
