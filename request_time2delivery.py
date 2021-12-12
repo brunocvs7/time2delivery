@@ -20,7 +20,7 @@ list_predictions = []
 X_list = X.to_dict(orient='records')
 
 # for each item of the list We will make a request 
-for records in X_list[0:10]:
+for records in X_list:
     res = requests.get('http://localhost:5000/predict', json=records)
     list_predictions.append(res.json())
     
