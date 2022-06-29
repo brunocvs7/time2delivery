@@ -1,8 +1,7 @@
 time2delivery
 ==============================
 
-Time2Delivery is a Flask App that gets information about orders and predict the time the order will take to complete. It was made as a business case for the technical phase of the selection process of Cornershop.
-
+Time2Delivery is a Flask App that gets information about orders and predict the time the order will take to complete. 
 Project Organization
 ------------
     ├── Dockerfile -> File containing instructions to build a Docker Image with Flask API
